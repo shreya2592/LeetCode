@@ -28,7 +28,6 @@ class Solution {
             }
             result.add(0, list);
             
-            System.out.println(result);
         }
         return result;
     }

@@ -2,22 +2,22 @@
 //Space Complexity- O(N)
 
 
-
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> map= new HashMap<>();
-        int[] num= new int[2];
+        
+        HashMap<Integer, Integer> map= new HashMap<>();
+        int[] result= new int[2];
         
         for(int i=0;i<nums.length;i++){
-            if (map.containsKey(target-nums[i])){
-                num[0]=map.get(target-nums[i]);
-                num[1]=i;
-                return num;
+            if(map.containsKey(target-nums[i])){
+                result[0]=map.get(target-nums[i]);
+                result[1]=i;
+                return result;
             }
             
             map.put(nums[i],i);
         }
         
-        return num;
+        return result;
     }
 }

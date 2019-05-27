@@ -1,6 +1,6 @@
 // Search In a rotated sorted array
 
-class Solution {
+class Solution5 {
     public int search(int[] nums, int target) {
         
         if(nums==null || nums.length==0){

@@ -3,7 +3,7 @@
 // DEFINE ANY CLASS AND METHOD NEEDED
 import java.util.*;
 // CLASS BEGINS, THIS CLASS IS REQUIRED
-public class Solution
+public class amazon
 {
     // METHOD SIGNATURE BEGINS, THIS METHOD IS REQUIRED
     int getMinimumCostToConstruct(int numTotalAvailableCities,

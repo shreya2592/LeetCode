@@ -1,5 +1,7 @@
 // copy a binary tree
 
+public class Cisco{
+
 public class TreeNode{
     public int val; 
     public TreeNode left, right;
@@ -9,7 +11,6 @@ public class TreeNode{
     }
 }
 
-public class Solution{
 
     public TreeNode cloneTree(TreeNode root){
         if(root==null){
